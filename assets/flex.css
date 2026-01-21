@@ -1,0 +1,36 @@
+.container-fluid{
+
+}
+.container{
+    max-width:1500px;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.justify-space-around{
+    justify-content: space-around;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.col-3{
+    width: calc(( 100% / 12 )*3);
+    padding: 8px;
+    box-sizing: border-box;
+}
+.relative{
+ position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.justify-content-center{
+    justify-content: center;
+} 
+.align-item-center{
+    align-items: center;
+}
+.flex-wap{
+    flex-wrap: wrap;
+}

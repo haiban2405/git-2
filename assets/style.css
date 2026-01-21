@@ -1,0 +1,158 @@
+*:not(i){
+    font-family: "Chakra Petch", sans-serif;
+    color:#334155;
+}
+body{
+    background-color:#6666668a;
+}
+header{
+    background-color: #fff;
+}
+.logo{
+    width: 16px;
+}
+.text-tile{
+    width:fit-content;
+    padding:8px 12px;
+    border-radius:6px;
+    font-size: 16px;
+}
+.item-menu{
+    width:fit-content;
+    padding:8px 12px;
+    border-radius:6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item-menu:hover{
+    background-color: #15803d47;
+}
+.item-menu::after{
+    font-size: 3px;
+    background-color: #15803d;
+}
+.bg-green{
+    background-color: #15803d;
+}
+.d-flex{
+    display:flex;
+}
+.d-block{
+    display:block;
+}
+.text-decor{
+    text-decoration: none;
+}
+.item-dropdown{
+    padding:6px 12px;
+    border-radius: 6px;
+    font-size:14px;
+}
+.text-line-white{
+    color:white;
+}
+.item-dropdown:hover button{
+    background-color: #065b25d4;
+}
+button{
+    border:1px solid #15803d;
+}
+.card{
+    width: 100%;
+}
+.text-tile1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.mg-y-4{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.logo1{
+    width: 46px;
+    height: 48px;
+}
+.image{
+    width: 100%;
+    height: 300px; 
+}
+.product-card{
+    transition: 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.product-description{
+
+}
+
+.product-card:hover .product-card{
+    transform: scale(1.1) translateY(-4px);
+}
+.product-card:hover .product-description{
+    transform: translateY(-8px);
+}
+.card-name{
+    font-size: 20px;
+    font-weight: bold;
+    height: 80px
+}
+.font-size-card{
+    font-size:14px;
+}
+.card-description{
+    font-size:16px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.mg-bottom-1{
+    margin-bottom: 4px;
+}
+.button-buy{
+    width: fit-content;
+    border: 1px;
+    border-radius: 6px;
+}
+.list-select{
+    background-color: white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    display: none;
+    transform: translate(-5px,15px);
+}
+.item-select{
+    width: 175px;
+    border:1px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.item-select:hover {
+    background-color: #15803d47;
+}
+.mg-y-1{
+    margin-right: 7px;
+}
+.item-menu:hover .list-select{
+    display: block;
+}
+.nav-list{
+    position: relative;
+}
+.nav-list::after{
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    display: block; 
+    width: 75%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: 0.4s;
+}
+.nav-list:hover::after {
+     transform: scaleX(1);
+}
